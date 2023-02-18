@@ -1,0 +1,18 @@
+.datapoint-research-option-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.datapoint-research-option-container p{
+    margin-right: 10px;
+}
+
+.selected-kpi-effect-mkba-title-container{
+    display: flex;
+    align-items: center;
+}
+
+.selected-kpi-effect-mkba-title-container p{
+    margin-right: 5px;
+}

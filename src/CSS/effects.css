@@ -1,0 +1,16 @@
+.effects-meta-item-outer-container{
+    border-bottom: 1px solid lightgray;
+}
+
+.effects-meta-item-inner-container{
+    display: flex;
+    align-items: center;
+}
+
+.effects-meta-item-inner-container p{
+    margin-right: auto;
+}
+
+.effect-datapoint-item-container{
+    border-bottom: none;
+}

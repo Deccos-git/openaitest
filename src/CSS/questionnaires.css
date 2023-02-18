@@ -1,0 +1,49 @@
+.questionnaire-title-container{
+    display: flex;
+    align-items: center;
+}
+
+.questionnaire-title-container p{
+    color: green;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.save-button-questionnaires{
+    cursor: pointer;
+    color: green;
+    font-size: 12px;
+}
+
+.question-title-input{
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    margin-bottom: 2px
+}
+
+.question-subtitle-textarea{
+    border: none;
+    box-shadow: none;
+    color: grey;
+}
+.question-checkbox-input{
+    width: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+#options-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.question-multiple-delete-icon{
+    height: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.add-question-button{
+    margin-top: 10px;
+}

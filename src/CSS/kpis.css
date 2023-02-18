@@ -1,0 +1,56 @@
+.kpi-container{
+    background-color: white;
+    padding: 10px;
+    width: 46%;
+}
+
+.kpi-data-container{
+    border-top: 1px solid lightgrey;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.select-datapoint p{
+    cursor: pointer;
+}
+
+.kpi-source-inner-container{
+    display: flex;
+    align-items: center;
+}
+
+.kpi-datapoint-item-container{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.kpi-datapoint-item-container img{
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+.kpi-research-meta-item-container p{
+    text-align: center;
+}
+
+.kpi-data-container-big{
+    width: 600px;
+}
+
+.kpi-research-meta-item-container{
+    margin-left: 40px;
+}
+
+.kpi-research-meta-item-container p{
+    text-align: left;
+    font-size: 12px;
+}
+
+.kpi-data-container-no-border{
+    border: none;
+}

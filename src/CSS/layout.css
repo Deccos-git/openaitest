@@ -1,0 +1,41 @@
+.table-container-dashboard{
+    width: 83%;
+}
+
+.menu-container{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.menu-item-container{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.menu-item-title-container{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-title-container p{
+    cursor: pointer;
+}
+
+.add-to-kpi-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.add-to-kpi-container input{
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}

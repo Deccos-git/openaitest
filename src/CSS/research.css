@@ -1,0 +1,49 @@
+.moment-title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moment-title-container p{
+    color: green;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.measure-moment-sub-container p{
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.measure-moment-sub-container select{
+    margin-left: 20px;
+}
+
+.measure-moment-sub-container img{
+    margin-left: 20px;
+}
+
+.measure-moment-sub-container h5{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #616161;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+#response-count{
+    margin-left: 20px;
+}
+
+.add-effect-container{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.add-effect-container img{
+    margin-left: 10px;
+    width: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.count-container{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.add-category-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.add-category-container img{
+    width: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.add-category-container input{
+    border: 1px solid lightgray;
+}
+
+.analyse-category-words-container{
+    display: flex;
+}
+
+.analyse-category-word{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.selected-words-container{
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.selected-words-container img{
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.selected-word{
+    text-decoration: line-through;
+}
+
+.development-item-container{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.options-container{
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.category-container{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.multiple-moment-item-container{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    height: 250px;
+}
+
+.multiple-results-count-container h2{
+    margin-left: 10px;
+}

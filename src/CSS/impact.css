@@ -1,0 +1,1198 @@
+.impact-questionnaires-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#impact-questionnaire-icon-container img{
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.saved-container p{
+    color: #47acc3;
+}
+#impact-questionnaire-icon-container{
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#responses-count{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#responses-count:hover{
+    color: green;
+}
+
+#respons-overview-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.question-analyse-container{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#questionnaire-analysis-container{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#impact-progress-questionnaire-container{
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.stakeholder-container{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.stakeholder-container p{
+    margin-right: 10px;
+}
+
+#stakeholder-email-container{
+    display: flex;
+}
+
+#stakeholder-email-container p{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#button-save-questionnaire-goal{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.delete-field-icon{
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.send-questionnaire-title h2 {
+    text-align: center;
+}
+
+.card-header-add-questionnaire h1{
+    border-bottom: 1px dotted lightgray;
+}
+
+#questionnaire-field-text{
+    border: 1px dotted lightgray;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#questionnaire-question{
+    margin-top: 10px;
+    width: 95%;
+}
+
+.question-type-display-container{
+  padding: 20px 10px 20px 10px;
+  margin: 20px 0px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#scale-reach-symbol{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.email-example-container{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.email-example-field-container{
+    border-bottom: 1px solid lightgray;
+    width: 90%;
+}
+
+.send-questionnaire-title h3{
+  text-align: center;
+}
+
+.email-example-section button{
+    margin-top: 30px;
+}
+
+.select-scale-container input{
+  border-bottom: 1px dotted lightgray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  border-right: none;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+.add-milestone-container{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    margin-right: 10px;
+}
+
+.add-milestone-container button{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.add-milestone-container h4{
+    margin: 0px;
+    text-align: center;
+}
+
+.add-milestone-container img{
+    margin: 10px 0px 10px 0px;
+}
+
+.dashboard-milestone-step-container{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    margin-right: 10px;
+}
+
+#milestone-container-milestone-detail{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard-milestone-step-container img{
+    margin: 10px 0px 10px 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.dashboard-milestone-step-container p{
+    text-align: center;
+}
+
+#scale-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+#scale-container input{
+    box-shadow: none;
+    width: 11px;
+    margin-bottom: 5px;
+}
+
+#question-type-label-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-scale-container{
+    margin-top: 10px;
+}
+
+#activity-outer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-inner-container-dashboard{
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    padding: 20px;
+    background-color: #83edff14;
+}
+
+#output-container{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.output-instrument-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 30px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.output-seeting-effect{
+    margin-left: 30px;
+}
+
+.output-title{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.task-detail-card{
+    width: 80% !important;
+}
+
+.impact-dashboard-output-container{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0px 0px 10px 30px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.impact-dashboard-output-inner-container{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0px 0px 10px 30px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    background-color: #83edff14;
+}
+
+.questionnaire-results-container{
+    margin-left: 30px;
+}
+
+.dashboard-instruments-container{
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#activity-title{
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.activity-meta-title-description{
+    margin-left: 30px;
+}
+
+.amount-container p {
+    font-weight: bold;
+}
+
+.dashboard-internal-results-container{
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.wizard-introduction-menu-card{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.wizard-introduction-menu-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.wizard-introduction-menu-container a{
+    font-weight: 500;
+}
+
+.output-instrument-inner-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#impact-banner{
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.settings-icon{
+    margin: 0px 10px 0px auto;
+    cursor: pointer;
+}
+
+.title-container{
+    border-bottom: lightgray solid 1px;
+    width: 100%;
+}
+
+.problem-analysis-card{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.edit-icon-header-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-icon-header-container img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.activity-detail-banner{
+    width: 100%;
+}
+
+.column-container{
+    width: 80%;
+    padding: 20px;
+}
+
+#toc-goal-container{
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#toc-assumptions-container{ 
+    display: flex;
+    justify-content: center;
+}
+
+.toc-assumptions-inner-container{
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+}
+
+.assumptions-left-container{
+    margin-right: 20px;
+}
+
+.toc-arrow-up-icon{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+.toc-goal-outer-container{
+    margin-bottom: 50px;
+}
+
+.toc-assumptions-container{
+    margin: 20px;
+}
+
+.toc-activity-inner-container{
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+    padding: 20px 0px;
+    margin: 10px 0px 10px 0px;
+    width: 89%;
+    height: 500px;
+}
+
+.goal-meta-inner-container{
+    margin: 0px 20px;
+}
+
+.outputs-container{
+    height: 600px;
+}
+
+#toc-activity-outer-container{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 1200px;
+}
+
+.sdg-card img{
+    width: 120px;
+    height: 120px;
+}
+
+.sdg-card h3{
+    text-align: center;
+}
+
+.sdg-card{
+    padding: 10px;
+    height: 300px;
+}
+
+#toc-activity-outer-outer-container{
+    display: flex;
+    justify-content: center;
+}
+
+#toc-outputs-outer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.toc-outputs-detail-container{
+    width: 100%;
+}
+
+.toc-output-container{
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+    padding: 20px 0px;
+    margin: 10px 0px 10px 0px;
+    width: 89%;
+    height: 500px;
+}
+
+.back-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-container img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.problem-analysis-card li{
+    margin-bottom: 5px;
+}
+
+.table-impact-dashboard{
+    width: 90% !important;
+}
+
+#progress-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px 0px 30px 0px;
+}
+
+.complete-step {
+    margin: 0px;
+    background-color: green;
+    margin: 20px;
+}
+
+.recharts-text{
+    font-size: 15px;
+}
+
+.complete-step p{
+    color: white;
+    text-align: center;
+}
+
+.complete-step h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.incomplete-step {
+    margin: 0px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.incomplete-step p{
+    text-align: center;
+}
+
+.incomplete-step h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.home-steps-sub-step{
+    margin-left: 30px;
+}
+
+.home-step-card{
+    height: 200px;
+    width: 150px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.home-step-detail-container{
+    display: flex;
+    align-items: center;
+}
+
+.home-step-detail-container img{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#home-progress-bar-container{
+    margin-bottom: 20px;
+}
+
+.profile-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.overview-step-detail-container{
+    padding: 30px;
+}
+
+#questionnaire-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#questionnaire-title-container-key{
+    margin-right: 10px;
+}
+
+.open-source-pen-icon-container{
+    flex-direction: column;
+}
+
+.list-container{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.list-top-row-container{
+    display: flex;
+    align-items: center;
+}
+
+.list-top-row-container p{
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#new-client-logo-container img{
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.questionnaire-field-delete-icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.questionnaire-field-delete-icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#agenda-calender-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.delete-text-measure-moments{
+    font-size: 12px;
+    color: red;
+    cursor: pointer;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.add-item-button{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.measure-moments-inner-container{
+    border: 2px dotted lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+.wizard-projectmanagement-link-container{
+    margin-bottom: 20px;
+}
+
+.measure-moments-container-research-main-page{
+    margin-left: 30px;
+}
+
+.table-container-impactclub{
+    margin: 20px 0px 0px 30px;
+}
+
+.button-container-impactclub{
+    margin-top: 30px;
+}
+
+.output-card-container{
+    width: 95% !important;
+}
+
+.impactclub-banner-container img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.milestone-card-container{
+    width: 95%;
+}
+
+.list-top-row-container img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.list-row-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.wizard-sub-nav-introduction{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.list-row-container img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#introduction-guide-link-container{
+    margin: 0px 5px;
+}
+
+.no-content-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.no-content-container svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    fill: #7f7f7f;
+}
+
+.empty-page-container{
+    width: 85%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-page-container h2{
+    color: gray;
+}
+
+.group-chat-subtitle-container{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+#problem-analysis-container{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#edit-logo-container{
+    display: flex;
+    align-items: center;
+}
+
+#edit-logo-button{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.button-container-align-left{
+    margin-top: 20px;
+}
+
+#mobile-menu-home-link{
+    font-size: 18px;
+}
+
+#impact-guide-menu-selecter select{
+    max-width: 100%;
+}
+
+#impact-guide-menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.default-goal-image{
+    cursor: pointer;
+}
+
+.cancel-icon{
+    align-self: flex-end;
+    margin: 0px 30px -10px 0px;
+    z-index: 4;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.list-banner-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 15px 10px;
+}
+
+.sroi-total-sum-equation-container{
+    margin-left: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.list-row-container input{
+    width: auto;
+    border: none;
+    box-shadow: none;
+}
+
+#milestone-modal-select{
+    max-width: 100%;
+    width: 100%;
+}
+
+.goal-banner-list{
+    height: auto !important;
+    width: 200px !important;
+    border-radius: 5px;
+}
+
+.question-display-title{
+    text-align: center;
+}
+
+.moment-position-container input{
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: none;
+    width: 35px;
+}
+
+
+.profile-no-background{
+    width: 83%;
+}
+
+.list-row-container textarea{
+    width: auto;
+    border: none;
+    box-shadow: none;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.incomplete-step{
+    background-color: #f48183;
+}
+
+.list-row-container select{
+    width: auto;
+    border: none;
+    box-shadow: none;
+}
+
+.list-container-stakeholder-management-page{
+    width: 94%;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    border: none;
+}
+
+.problemanalysis-arrow-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.problemanalysis-arrow-container img{
+    height: 30px;
+}
+
+.central-problem-card{
+    padding-bottom: 30px;
+}
+
+.central-problem-card p{
+    text-align: center;
+}
+
+.problem-list-inner-container{
+    display: flex;
+    align-items: center;
+}
+
+.problem-list-inner-container img{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.central-problem-card button{
+    margin-top: 20px;
+}
+
+#central-problem{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.problem-analysis-card-title-container{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.problem-analysis-card-title-container p{
+    font-weight: bold;
+}
+
+.problem-analysis-card-title-container img{
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.wizard-sub-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.wizard-detail-icons{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.step-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.step-container img{
+    width: 15px;
+    height: 10px;
+    margin: 10px;
+}
+
+.text-section{
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: #83edff14;
+}
+
+.title-container p{
+    font-weight: bold;
+}
+
+.list-inner-container{
+    width: 100%;
+}
+
+.internal-results-container{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.add-instrument-button{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.percentage-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressbar-outer-bar {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.progressbar-progress {
+    padding: 5px;
+}
+
+.milestone-progress-container {
+    margin: 20px 0 0 30px;
+}
+
+.icon-container-activities{
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.icon-container-activities img{
+    margin-right: 10px;
+}
+
+#print-questionnaire-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#print-questionnaire-container img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.next-step-impact{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.next-step-impact img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.functionality-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.group-settings-banner{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.functionality-container p{
+    margin: 0px;
+    font-weight: bold;
+}
+
+#number-indicators-output{
+    margin-left: 20px;
+}
+
+#impact-dasboard-goal-banner{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#impact-dasboard-activity-banner{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.create-questionnaire-field-container{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.share-container{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: #cbf6fd14;
+}
+
+.create-questionnaire-field-container input{
+    width: auto;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+#impact-progress-goal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#goal-meta-container{
+    margin-left: 50px;
+}
+
+.goal-meta-title-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.goal-meta-title-container img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.goal-meta-inner-container p{
+    margin-left: 30px;
+}
+
+.activity-meta-title-container{
+    display: flex;
+    align-items: center;
+}
+
+.activity-meta-title-container img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.dashboard-questions-container{
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.dashboard-questions-container p {
+    font-weight: normal;
+    cursor: none;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .activity-inner-container-dashboard {
+        width: 100%;
+    }
+
+    #goal-meta-container{
+        margin-left: 10px;
+    }
+}
+
+@media print { 
+    .top-bar, .right-sidebar, .left-side-bar-container, #card-header-title, #print-questionnaire-container { 
+        display: none !important; 
+    } 
+   }
