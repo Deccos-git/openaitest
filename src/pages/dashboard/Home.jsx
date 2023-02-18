@@ -35,65 +35,12 @@ const Home = () => {
     <LeftSideBarFullScreen/>
     <div className="main-container" style={{display: menuState}}>
         <div className='page-header'>
-            <h1><span>👋 </span> Welkom, {authO.ForName}.</h1>
+            <h1>Test organisaties</h1>
         </div>
         <div className='home-container'>
-            {/* <div className='title-edit-container'>
-                <RotateRightIcon className='icon'/>
-                <h2>Voortgang</h2>
-            </div>
-            <ProfileCompleteness/> */}
-            <div className='home-stats-container'>
-                <div className='home-stat-container' onClick={() => history.push(`/${client}/Goals`)}>
-                    <h3>Impactdoelen</h3>
-                    <p>{goals.length}</p>
-                </div>
-                <div className='home-stat-container' onClick={() => history.push(`/${client}/Activities`)}>
-                    <h3>Activiteiten</h3>
-                    <p>{activities.length}</p>
-                </div>
-                <div className='home-stat-container' onClick={() => history.push(`/${client}/OutputSettings`)}>
-                    <h3>Outputs</h3>
-                    <p>{outputs.length}</p>
-                </div>
-                {/* <div className='home-stat-container' onClick={() => history.push(`/${client}/OutputSettings`)}>
-                    <h3>Effecten</h3>
-                    <p>{effects.length}</p>
-                </div> */}
-                <div className='home-stat-container' onClick={() => history.push(`/${client}/ResearchSettings`)}>
-                    <h3>Onderzoeken</h3>
-                    <p>{researches.length}</p>
-                </div>
-                <div className='home-stat-container' onClick={() => history.push(`/${client}/personas`)}>
-                    <h3>Personas</h3>
-                    <p>{personas.length}</p>
-                </div>
-                <div className='home-stat-container' onClick={() => history.push(`/${client}/SROI`)}>
-                    <h3>MKBAs</h3>
-                    <p>{mkbas.length}</p>
-                </div>
-
-            </div>
-            <div className='title-edit-container'>
-                <TerrainIcon className='icon'/>
-                <h2>KPI's</h2>
-                <NavLink activeClassName='active' to={`/${client}/kpis`}>
-                    <img src={penIcon} alt="" />
-                </NavLink>
-            </div>
-            <div className='card-container kpi-home-container'>
-                {kpis && kpis.map(item => (
-                    <div key={item.ID} className={`card kpi-container`}>
-                        <h3>{item.Title}</h3>
-                        <KpiData kpi={item}s/>
-                    </div>
-                ))}
-            </div>
-            <div className='title-edit-container'>
-                {/* <FormatListBulletedIcon className='icon'/> */}
-                {/* <h2>Taken</h2> */}
-            </div>
+            <p>Test organisatie toevoegen</p>
         </div>
+           
     </div>
 </div>
   )

@@ -2,17 +2,13 @@ import "../CSS/index.css";
 import Goals from '../pages/dashboard/Goals';
 import { Switch, Route } from "react-router-dom";
 import Search from '../pages/topbar/Search';
-import Register from "../pages/auth/Register";
-import Profile from "../pages/auth/Profile";
 import GoalDetail from "../pages/dashboard/GoalDetail";
 import { client } from '../hooks/Client';
 import Notifications from '../pages/topbar/Notifications';
 import Settings from '../pages/admin/Settings';
 import Members from '../pages/admin/Members';
-import Login from '../pages/auth/Login';
 import LeftSideBarFullScreen from '../components/LeftSideBarFullScreen'
 import UserRoles from '../pages/admin/UserRoles';
-import NotApproved from '../pages/auth/NotApproved';
 import Activities from '../pages/dashboard/Activities'
 import ActivityDetail from '../pages/dashboard/ActivityDetail'
 import TaskDetail from '../pages/projectmanagement/TaskDetail'
@@ -81,25 +77,16 @@ const Main = () => {
         <>
             <Switch>
                 <Route exact path={`/`}>
-                    <Login/>
+                    <Home/>
                 </Route>
                 <Route path={`/NewClient`}>
                     <NewClient/>
-                </Route>
-                <Route path={`/${client}/NotApproved`}>
-                    <NotApproved/>
                 </Route>
                 <Route exact path={`/${client}`}>
                     <Home/>
                 </Route>
                 <Route path={`/${client}/Home`}>
                     <Home/>
-                </Route>
-                <Route path={`/${client}/Login`}>
-                    <Login/>
-                </Route>
-                <Route path={`/${client}/Register`}>
-                    <Register/>
                 </Route>
                 <Route path={`/${client}/Goals`}>
                     <Goals/>
@@ -145,9 +132,6 @@ const Main = () => {
                 </Route>
                 <Route path={`/${client}/Search`}>
                     <Search/>
-                </Route>
-                <Route path={`/${client}/Profile`}>
-                    <Profile/>
                 </Route>
                 <Route path={`/${client}/GoalDetail`}>
                     <GoalDetail/>

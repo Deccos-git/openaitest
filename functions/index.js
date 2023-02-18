@@ -23,9 +23,3 @@ exports.completionOnCall = functions.https.onCall( async (data, context) => {
     return textAnswer
 })
 
-
-
-
-
-
-
